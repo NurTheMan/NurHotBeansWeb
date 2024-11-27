@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Fixed the width to 100% */
+  background-color: #333;
+  color: #fff; /* Changed the color to white */
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Styling for images */
+img {
+  width: 200px;
+  height: auto; /* Maintain aspect ratio */
+}
+.logo-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.logo {
+  width: 100px;
+}
